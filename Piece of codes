@@ -1,0 +1,12 @@
+C:\Users\Yash Gupta>mongoimport --jsonArray --db UTA_Enrollment --collection user --file users.json
+2021-05-04T18:32:02.367+0530    connected to: mongodb://localhost/
+2021-05-04T18:32:02.422+0530    20 document(s) imported successfully. 0 document(s) failed to import.
+
+C:\Users\Yash Gupta>mongoimport --jsonArray --db UTA_Enrollment --collection course --file courses.json
+2021-05-05T11:54:34.722+0530    connected to: mongodb://localhost/
+2021-05-05T11:54:34.769+0530    5 document(s) imported successfully. 0 document(s) failed to import.
+
+
+To run
+venv/Scripts/activate
+flask run
